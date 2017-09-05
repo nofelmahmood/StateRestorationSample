@@ -54,21 +54,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, didDecodeRestorableStateWith coder: NSCoder) {
-        print("Did Decode")
     }
     
     func application(_ application: UIApplication, willEncodeRestorableStateWith coder: NSCoder) {
-        print("Will Encode")
     }
-    
-    func application(_ application: UIApplication, viewControllerWithRestorationIdentifierPath identifierComponents: [Any], coder: NSCoder) -> UIViewController? {
-        
-        print("Identifier Components \(identifierComponents)")
-        
-        return nil
-    }
-    
-    
 
 }
 

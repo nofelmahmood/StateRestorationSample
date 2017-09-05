@@ -46,16 +46,13 @@ extension DViewController {
         if let name = name {
             coder.encode(name)
         }
-        
-        print("Encoded DViewController")
         super.encodeRestorableState(with: coder)
     }
     
     override func decodeRestorableState(with coder: NSCoder) {
         name = coder.decodeObject() as? String
-        
-        print("Decoded DViewController \(name)")
         super.decodeRestorableState(with: coder)
+        
     }
     
     override func applicationFinishedRestoringState() {
