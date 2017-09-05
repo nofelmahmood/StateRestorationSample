@@ -59,3 +59,19 @@ extension ViewController: UITableViewDelegate {
         performSegue(withIdentifier: "Show", sender: nil)
     }
 }
+
+extension ViewController {
+    
+    override func encodeRestorableState(with coder: NSCoder) {
+        
+    }
+    
+    override func decodeRestorableState(with coder: NSCoder) {
+        
+    }
+    
+    override func applicationFinishedRestoringState() {
+        print("Finish Restoring State")
+    }
+    
+}

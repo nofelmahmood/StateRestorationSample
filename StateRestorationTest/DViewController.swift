@@ -39,3 +39,27 @@ class DViewController: UIViewController {
     */
 
 }
+
+extension DViewController {
+    
+    override func encodeRestorableState(with coder: NSCoder) {
+        if let name = name {
+            coder.encode(name)
+        }
+        
+        print("Encoded DViewController")
+        super.encodeRestorableState(with: coder)
+    }
+    
+    override func decodeRestorableState(with coder: NSCoder) {
+        name = coder.decodeObject() as? String
+        
+        print("Decoded DViewController \(name)")
+        super.decodeRestorableState(with: coder)
+    }
+    
+    override func applicationFinishedRestoringState() {
+        nameLabel.text = name
+        navigationItem.title = name
+    }
+}

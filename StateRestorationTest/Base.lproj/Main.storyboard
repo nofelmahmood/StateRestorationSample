@@ -79,7 +79,7 @@
         <!--View Controller-->
         <scene sceneID="nkx-6S-xpi">
             <objects>
-                <viewController id="LNT-bI-UWj" customClass="DViewController" customModule="StateRestorationTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LNT-bI-UWj" customClass="DViewController" customModule="StateRestorationTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kxa-FN-unO"/>
                         <viewControllerLayoutGuide type="bottom" id="dnk-91-EWF"/>
@@ -117,7 +117,7 @@
         <!--Navigation Controller-->
         <scene sceneID="SzI-75-60g">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JEz-Ev-6IV" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="UINavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JEz-Ev-6IV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fVz-25-43Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
