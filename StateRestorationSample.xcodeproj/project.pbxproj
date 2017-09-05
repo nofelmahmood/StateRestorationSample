@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3ECBDCBE1F5E9375001B79C3 /* StateRestorationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateRestorationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECBDCBE1F5E9375001B79C3 /* StateRestorationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateRestorationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECBDCC11F5E9375001B79C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECBDCC31F5E9375001B79C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ECBDCC61F5E9375001B79C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		3ECBDCBF1F5E9375001B79C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ECBDCBE1F5E9375001B79C3 /* StateRestorationTest.app */,
+				3ECBDCBE1F5E9375001B79C3 /* StateRestorationSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ECBDCBD1F5E9375001B79C3 /* StateRestorationTest */ = {
+		3ECBDCBD1F5E9375001B79C3 /* StateRestorationSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ECBDCD01F5E9375001B79C3 /* Build configuration list for PBXNativeTarget "StateRestorationTest" */;
+			buildConfigurationList = 3ECBDCD01F5E9375001B79C3 /* Build configuration list for PBXNativeTarget "StateRestorationSample" */;
 			buildPhases = (
 				3ECBDCBA1F5E9375001B79C3 /* Sources */,
 				3ECBDCBB1F5E9375001B79C3 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = StateRestorationTest;
+			name = StateRestorationSample;
 			productName = StateRestorationTest;
-			productReference = 3ECBDCBE1F5E9375001B79C3 /* StateRestorationTest.app */;
+			productReference = 3ECBDCBE1F5E9375001B79C3 /* StateRestorationSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3ECBDCB91F5E9375001B79C3 /* Build configuration list for PBXProject "StateRestorationTest" */;
+			buildConfigurationList = 3ECBDCB91F5E9375001B79C3 /* Build configuration list for PBXProject "StateRestorationSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ECBDCBD1F5E9375001B79C3 /* StateRestorationTest */,
+				3ECBDCBD1F5E9375001B79C3 /* StateRestorationSample */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 				DEVELOPMENT_TEAM = 9BSYUAQ55P;
 				INFOPLIST_FILE = StateRestorationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineish.StateRestorationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineish.StateRestorationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +283,7 @@
 				DEVELOPMENT_TEAM = 9BSYUAQ55P;
 				INFOPLIST_FILE = StateRestorationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nineish.StateRestorationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nineish.StateRestorationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -292,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ECBDCB91F5E9375001B79C3 /* Build configuration list for PBXProject "StateRestorationTest" */ = {
+		3ECBDCB91F5E9375001B79C3 /* Build configuration list for PBXProject "StateRestorationSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ECBDCCE1F5E9375001B79C3 /* Debug */,
@@ -301,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ECBDCD01F5E9375001B79C3 /* Build configuration list for PBXNativeTarget "StateRestorationTest" */ = {
+		3ECBDCD01F5E9375001B79C3 /* Build configuration list for PBXNativeTarget "StateRestorationSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ECBDCD11F5E9375001B79C3 /* Debug */,

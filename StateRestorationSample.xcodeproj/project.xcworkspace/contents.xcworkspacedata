@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:StateRestorationTest.xcodeproj">
+      location = "self:/Users/nofelmahmood/Documents/StateRestorationTest/StateRestorationSample.xcodeproj">
    </FileRef>
 </Workspace>
